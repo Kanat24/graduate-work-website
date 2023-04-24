@@ -19,6 +19,7 @@ public class Ads {
      * "ID/ id обьявления" field
      */
     @Id
+
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     /**
